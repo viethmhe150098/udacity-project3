@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+ AWS_BUCKET: bk-donglq2-dev
+ AWS_PROFILE: default
+ AWS_REGION: us-east-1
+ JWT_SECRET: lfkd_bimat_adlk
+ POSTGRES_DB: postgres_donglq2_dev
+ POSTGRES_HOST: postgres-donglq2-dev.chzbxr6c7pwo.us-east-1.rds.amazonaws.com
+ URL: YOUR BACKEND API
+ NODE_OPTIONS: --max-old-space-size=1024
+metadata:
+ name: env-config
