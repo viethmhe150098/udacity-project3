@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-      - image: dongluv/udagram-frontend:v2
+      - image: hmviet/udagram-frontend:v1
         name: frontend
         imagePullPolicy: Always
         resources:

@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: dongluv/reverseproxy:v1
+      - image: hmviet/reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always
         resources:
